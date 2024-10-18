@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(240, 238, 108);
+    line-height: 1.4;
+    margin: 0;
+
+.p_right { 
+        background-color: cornsilk;
+        width: auto;
+        height: 200px;
+
+}
+img{
+    float: right;
+    clear float: right: ;
+    width: 200px; ;
+    height: 200px;
+}
+
+.list_item {
+    list-style-type: square;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: yellow;
+}

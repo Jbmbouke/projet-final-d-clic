@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="../P_css/contact.css">
+    <script src="contact.js"></script>
+</head>
+<body>
+    <h1>Veuillez remplir le formulaire de contacte ci dessous</h1>
+    <img src="IMG/cal2.png" alt="photo illustratif" title="photo illustratif">
+
+    <div>
+    <form action="" name="myForm" method="post" onsubmit="return soumettreFormulaire(event)">
+
+<div>
+    <label for="lastname">Votre nom</label>
+<input type="text"  id="lastname" name="nom" required>
+</div>
+
+<div>
+    <label for="firstname">Votre prénom</label>
+<input type="text"  id="firstname" name="prenom" required>
+</div>
+
+<div>
+    <label for="date">Votre date de naissance</label>
+    <input type="date" name="date" id="date" placeholder="jj-mm-aaaa">
+</div>
+
+<div>
+    <label for="sexe">Vote sexe</label>
+    <div>
+        <label for="Masculin">Masculin</label>
+    <input type="radio" name="Sexe" id="Masculin" value="Masculin">
+    
+    </div>
+    <div>
+        <label for="feminin">feminin</label>
+    <input type="radio" name="Sexe" id="Feminin" value="Feminin">
+
+    </div>
+</div>
+
+<div>
+    <label for="mail">Votre e-mail</label>
+    <input type="email" name="email" id="mail" placeholder="jbmbouke@gmail.com" required>
+</div>
+
+<div>
+    <label for="service">Service voulu</label>
+    <select name="service" id="service">
+        <optgroup>
+            <option value="site">Création et conception de site web</option>
+            <option value="visite">Visite touristique</option>
+            <option value="don">Faire un don</option>
+        </optgroup>
+    </select>
+</div>
+
+
+<button type="submit" class="button" >Envoyer</button>
+    </form>
+
+</div>
+    <div>
+<button class="button_2"><a href="index.html" target="_blank">Retourner à l'Acceuil</a></button>   
+ </div>
+
+ <div>
+    <footer class="footer">
+        <ul class="list_item">
+            <li>   <a href="Apropos.html" target="_blank">A propos</a>   </li>
+            <li>     <a href="competence.html" target="_blank">Voir nos Compétences</a> </li>
+            <li>            <a href="Projets.html" target="_blank">Nos Projets</a>   </li>
+            <li>     <a href="contact.html" target="_blank">Nous Contacter</a></li>
+        </ul>
+    </footer>
+ </div>
+</body>
+</html>
